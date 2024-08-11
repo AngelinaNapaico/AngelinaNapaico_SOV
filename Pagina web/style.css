@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #86b3c0;
+}
+
+.nav{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(0, 4, 255);
+}
+
+.fondo{
+    background-image: url(./img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    border: solid 2px black;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.quienesomos{
+    font-size: 60px;
+    color: rgb(17, 0, 255);
+}
+
+button {
+    height: 50px;
+    margin: 5px;
+    width: 120px;
+    background: #333;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: Consolas, Courier New, monospace;
+    border: solid #404c5d 1px;
+    font-size: 16px;
+    color: rgb(161, 161, 161);
+    -webkit-transition: 500ms;
+    transition: 500ms;
+    border-radius: 5px;
+    background: linear-gradient(145deg, #2e2d2d, #212121);
+    -webkit-box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+      inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+    box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+      inset 5px 5px 10px #212121, inset -5px -5px 10px #212121; 
+      margin-left: 50px;
+  }
+  
+  button:hover {
+    -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+    box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+    color: #d6d6d6;
+    -webkit-transition: 500ms;
+    transition: 500ms;
+  }
+  
+  button:active {
+    -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+    box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+    color: #d6d6d6;
+    -webkit-transition: 100ms;
+    transition: 100ms;
+  }
+  
+
+.imagen img{ 
+    height: 450px;
+    border-radius: 30px;
+    margin-left: 1400px;
+    margin-top: -650px;
+}
+
+.letra{
+    margin: 50px;
+}
+
+.desarrollo{
+    margin: 50px;
+}
+
+.desarrollo2{
+    font-size: 60px;
+    color: blue;
+}
+
+.letra2{
+    margin: 50px;
+}
+
+.misionvision{
+    margin-bottom: 40px;
+    font-size: 60px;
+} 
+
+p{
+    font-size: 30px;
+}
+
+.insignia img{
+    width: 180px;
+    height: 90px;
+    margin-left: 80px;
+}
+
+.body{
+    background-color: aquamarine;
+    color: black;
+}
+
+.organigrama{
+    margin-left: 50px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.organigrama2{
+    font-size: 30px;
+    color: blue;
+}
+
+.youtube{
+    color: rgb(45, 67, 165);
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.video{
+    margin-left: 550px;
+}
+
+.video img{
+    width: 700px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: rgb(51, 79, 156);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.url{
+    color: rgb(255, 255, 255);
+} 
+
+.url:hover{
+    margin: 50px;
+}
+
